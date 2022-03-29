@@ -3,6 +3,7 @@
 	--knight: #212121;
 	--first: #ff9300;
 	--second: #037e8b;
+	--second-hover: #036e7a;
 	--grey: #757575;
 	--lightgray: #dfe9f3;
 
@@ -56,9 +57,11 @@ body {
 	width: 90%;
 	text-align: center;
 	border: none;
+	transition: background-color linear 0.2s;
 }
 .btn:hover {
 	cursor: pointer;
+	background-color: var(--second-hover);
 }
 @media (min-width: 768px) {
 	.btn {
